@@ -3,36 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kavindu Kashmira Palihakkara - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="#home">HOME</a>
-            <a href="#about-me">ABOUT ME</a>
-            <a href="#projects">PROJECTS</a>
-            <a href="#contact-me">CONTACT ME</a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
         </nav>
     </header>
 
-    <div class="container">
-        <img src="profile.jpg" alt="Kavindu Kashmira Palihakkara" class="profile-picture">
+    <section id="home">
         <div class="intro">
-            <h1>Hello, I'm Kavindu Kashmira Palihakkara.</h1>
-            <h2>Mobile App Developer | UI/UX Designer</h2>
+            <h1>Hello,</h1>
+            <h2>I'm Kavindu Kashmira Palihakkara.</h2>
+            <h3>Mobile App Developer | UI/UX Designer</h3>
+            <div class="social-icons">
+                <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+                <a href="#"><img src="email.png" alt="Email"></a>
+                <a href="#"><img src="phone.png" alt="Phone"></a>
+                <a href="#"><img src="github.png" alt="GitHub"></a>
+            </div>
+            <div class="profile-pic">
+                <img src="profile.jpg" alt="Profile Picture">
+            </div>
         </div>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/kavindu" target="_blank">LinkedIn</a>
-            <a href="mailto:kavindu@example.com">Email</a>
-            <a href="tel:+123456789">Phone</a>
-            <a href="https://github.com/kavindu" target="_blank">GitHub</a>
-        </div>
-    </div>
+    </section>
 
-    <div class="about-me" id="about-me">
+    <section id="about">
         <h2>About Me</h2>
-        <p>As a dynamic mobile app developer, I possess a keen eye for UI/UX design and a passion for crafting seamless interfaces for mobile applications. As an intern, I am excited to find a platform where I can unleash my diverse skills in Figma, Flutter, Java, Python, and more.</p>
-    </div>
+        <p>
+            As a dynamic mobile app developer, I possess a keen eye for UI/UX design and a passion for crafting seamless interfaces for mobile applications. As an intern, I am excited to find a platform where I can unleash my diverse of skills in Figma, Flutter, Java, Python, HTML, CSS, JavaScript and contribute to real-world solutions.
+        </p>
+        <a href="resume.pdf" class="download-resume">Download Resume</a>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">Project 1</div>
+            <div class="project">Project 2</div>
+            <div class="project">Project 3</div>
+            <div class="project">Project 4</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <div class="contact-form">
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <input type="tel" name="phone" placeholder="Phone">
+                <input type="text" name="address" placeholder="Address">
+                <textarea name="message" placeholder="Your message"></textarea>
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 by Palihakkara | All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
