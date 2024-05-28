@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background: linear-gradient(135deg, #3a3a3a, #1c1c1c);
@@ -9,13 +9,18 @@ body {
 header {
     background: #2b2b2b;
     padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: right; /* Align to the right */
+    padding-right: 20px; /* Add some padding to the right */
 }
 
 nav ul li {
@@ -26,7 +31,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-weight: bold;
+    font-weight: 600; /* Semi-bold for better visibility */
     transition: color 0.3s ease;
 }
 
@@ -35,12 +40,19 @@ nav ul li a:hover {
 }
 
 section {
-    padding: 50px 20px;
+    padding: 100px 20px 50px 20px; /* Added padding-top to ensure content is not hidden behind the fixed navbar */
     text-align: center;
 }
 
 #home .intro {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home .intro .text {
+    text-align: left;
+    max-width: 60%;
 }
 
 #home .intro h1,
@@ -89,7 +101,7 @@ section {
     overflow: hidden;
     width: 150px;
     height: 150px;
-    margin: 20px auto;
+    margin-left: auto; /* Push it to the right */
 }
 
 #home .profile-pic img {
