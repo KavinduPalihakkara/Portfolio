@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-/* ----- VARIABLES ----- */
+
 :root{
     --body-color: rgb(250, 250, 250);
     --color-white: rgb(255, 255, 255);
@@ -21,4 +21,69 @@
 
 html{
     scroll-behavior: smooth;
+}
+
+.btn{
+    font-size: 500;
+    padding: 12px 20px;
+    background:#00c9ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background:#00c9ff;
+    color: white;
+}
+body{
+    background: white;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    background: rgba(255, 255, 0, 0.455);
+    padding-inline: 9vw;
+    z-index: 0;
+}
+.nav-logo{
+    position: relative;
+}
+
+.nav-menu , .nav-menu-list{
+    display: flex;
+    position: relative;
+}
+
+.nav-menu .nav-list{
+    list-style: none;
+    position: relative;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding-inline: 15px;
+    margin-inline: 20px;
+}
+
+.nav-menu-btn{
+    display: none;
+}
+
+.nav-menu-btn i{
+    font-size: 28px;
+    cursor: pointer;
+
 }
