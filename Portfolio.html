@@ -1,74 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Portfolio</title>
+
+    <link rel="shortcut icon" href="images/OIF.jpeg" type="image/x-icon">
+
     <link rel="stylesheet" href="portfolio.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.js">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
+
 <body>
-    <header>
-        <nav>
+    <div class="container">
+        <nav id="header">
+          <div class="nav-logo">
+          </div> 
+          <div class="nav-menu" id="myNavMenu">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact Me</a></li>
+                <li class="nav-list">
+                    <a href="#home" class="nav-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav-list">
+                    <a href="#aboutme" class="nav-link">Aboutme</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav-list">
+                    <a href="#project" class="nav-link">Project</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav-list">
+                    <a href="#contactme" class="nav-link">Contactme</a>
+                    <div class="circle"></div>
+                </li> 
             </ul>
+          </div>
+          <div class="nav-button">
+            <button class="btn">download-resume</button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uis uis-bars" onclick="myMenu"></i>
+            </div>
         </nav>
-    </header>
-
-    <section id="home">
-        <div class="intro">
-            <div class="text">
-                <h1>Hello,</h1>
-                <h2>I'm Kavindu Kashmira Palihakkara.</h2>
-                <h3>Mobile App Developer | UI/UX Designer</h3>
-                <div class="social-icons">
-                    <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
-                    <a href="#"><img src="email.png" alt="Email"></a>
-                    <a href="#"><img src="phone.png" alt="Phone"></a>
-                    <a href="#"><img src="github.png" alt="GitHub"></a>
-                </div>
-            </div>
-            <div class="profile-pic">
-                <img src="profile.jpg" alt="Profile Picture">
-            </div>
-        </div>
-    </section>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            As a dynamic mobile app developer, I possess a keen eye for UI/UX design and a passion for crafting seamless interfaces for mobile applications. As an intern, I am excited to find a platform where I can unleash my diverse of skills in Figma, Flutter, Java, Python, HTML, CSS, JavaScript and contribute to real-world solutions.
-        </p>
-        <a href="portfolio/Portfolio/resume.pdf.pdf" class="download-resume">Download Resume</a>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-list">
-            <div class="project">Project 1</div>
-            <div class="project">Project 2</div>
-            <div class="project">Project 3</div>
-            <div class="project">Project 4</div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="#" method="post">
-            <div class="contact-form">
-                <input type="text" name="name" placeholder="Name">
-                <input type="email" name="email" placeholder="Email">
-                <input type="text" name="phone" placeholder="Phone">
-                <input type="text" name="address" placeholder="Address">
-                <textarea name="message" placeholder="Your message"></textarea>
-                <button type="submit">Send Message</button>
-            </div>
-        </form>
-    </section>
+    </div>
+</body>
 
     <footer>
         <p>Copyright © 2024 by Palihakkara | All Rights Reserved.</p>
