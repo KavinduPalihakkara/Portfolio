@@ -1,3 +1,4 @@
+
 function myMenuFunction() {
   var menuBtn = document.getElementById("myNavMenu");
   if (menuBtn.className === "nav-menu") {
