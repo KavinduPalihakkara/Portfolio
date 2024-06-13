@@ -94,7 +94,7 @@ nav {
   .nav-menu {
     position: fixed;
     top: 80px;
-    left: 0;
+    left: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
