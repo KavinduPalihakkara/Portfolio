@@ -85,10 +85,10 @@ nav {
 }
 
 @media only screen and (max-width : 900px) {
-  .nav-btn {
+  .nav-button {
     display: none;
   }
-  .nav-menu-btn.responsive {
+  .nav-menu.responsive {
     left: 0;
   }
   .nav-menu {
@@ -98,7 +98,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgb(214, 25, 25);
+    background: white;
     width: 100%;
     backdrop-filter: blur(20px);
     min-height: 450px;
@@ -113,4 +113,24 @@ nav {
     align-items: center;
     justify-content: center;
   }
+}
+
+.wrapper{
+  padding-inline: 10vw;
+}
+.featured-box{
+  position: relative;
+  display: flex;
+  height: 100vh;
+  min-height: 700px;
+}
+.featured-text{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 80vh;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 20px;
 }

@@ -4,17 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Portfolio</title>
-
     <link rel="shortcut icon" href="images/OIF.jpeg" type="image/x-icon">
-
     <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="portfolio.js">
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
 
@@ -22,34 +14,64 @@
     <div class="container">
         <nav id="header">
             <div class="nav-logo">
-                <!-- logo ------ -->     
-            </div> 
-                <div class="nav-menu" id="myNavMenu">
-                    <ul class="nav-menu-list">
-                        <li class="nav-list">
-                            <a href="#home" class="nav-link">Home</a>
-                            <div class="circle"></div>
-                        </li>
-                        <li class="nav-list">
-                            <a href="#aboutme" class="nav-link">AboutMe</a>
-                            <div class="circle"></div>
-                        </li>
-                        <li class="nav-list">
-                            <a href="#project" class="nav-link">Projects</a>
-                            <div class="circle"></div>
-                        </li>
-                        <li class="nav-list">
-                            <a href="#contactme" class="nav-link">ContactMe</a>
-                            <div class="circle"></div>
-                        </li> 
-                    </ul>
-                </div>
-          <div class="nav-button">
-                <button class="btn">download-resume</button>
+                <!-- logo -->
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav-menu-list">
+                    <li class="nav-list">
+                        <a href="#home" class="nav-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#aboutme" class="nav-link">About Me</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#project" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#contactme" class="nav-link">Contact Me</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn">Download Resume</button>
             </div>
             <div class="nav-menu-btn">
-                <i class="uil uil-bars" onclick = "myMenuFunction()"></i>
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
             </div>
         </nav>
+
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+               <div class="featured-text">
+                 <div class="featured-text-card">
+                     <span>Kavindu Palihakkara</span>
+                 </div>
+                 <div class="featured-name">
+                     <p>I'm <span class="typedText"></span></p>
+                 </div>
+                 <div class="featured-text-info">
+                     <p>Experienced frontend developer with a passion for creating visually stunning
+                        and user-friendly websites.
+                     </p>
+                 </div>
+                 <div class="featured-text-btn">
+                     <button class="btn">Download Resume</i></button>
+                 </div>
+                 <div class="social_icons">
+                     <div class="icon"><i class="uil uil-twitter"></i></div>
+                     <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                     <div class="icon"><i class="uil uil-github-alt"></i></div>
+                 </div>
+                </div>
+            </section>
+        </main>
     </div>
+    <script src="portfolio.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+
 </html>
