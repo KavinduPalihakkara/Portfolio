@@ -32,8 +32,9 @@ html {
   cursor: pointer;
 }
 
-body {
-  background: white;
+.btn:hover{
+  background: var(--second-color);
+  color: var(--color-white);
 }
 
 .container {
@@ -50,7 +51,7 @@ nav {
   line-height: 90px;
   background: white;
   padding-inline: 9vw;
-  z-index: 0;
+  z-index: 100;
 }
 .nav-logo {
   position: relative;
