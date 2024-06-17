@@ -1,4 +1,3 @@
-
 function myMenuFunction() {
   var menuBtn = document.getElementById("myNavMenu");
   if (menuBtn.className === "nav-menu") {
@@ -8,7 +7,9 @@ function myMenuFunction() {
   }
 }
 
-window.onscroll = function() {headerShadow()};
+window.onscroll = function () {
+  headerShadow();
+};
 function headerShadow() {
   const header = document.getElementById("header");
 
@@ -16,8 +17,7 @@ function headerShadow() {
     header.style.boxShadow = "0 1px 6px rgba(0, 0, 0, 0.1)";
     header.style.height = "70px";
     header.style.lineHeight = "70px";
-
-  }else {
+  } else {
     header.style.boxShadow = "none";
     header.style.height = "90px";
     header.style.lineHeight = "90px";

@@ -32,7 +32,7 @@ html {
   cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
   background: var(--second-color);
   color: var(--color-white);
 }
@@ -85,7 +85,7 @@ nav {
   cursor: pointer;
 }
 
-@media only screen and (max-width : 900px) {
+@media only screen and (max-width: 900px) {
   .nav-button {
     display: none;
   }
@@ -104,28 +104,28 @@ nav {
     backdrop-filter: blur(20px);
     min-height: 450px;
     height: 90vh;
-    transition: .3s;
+    transition: 0.3s;
   }
-  .nav-menu-list{
+  .nav-menu-list {
     flex-direction: column;
   }
-  .nav-menu-btn{
+  .nav-menu-btn {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 }
 
-.wrapper{
+.wrapper {
   padding-inline: 10vw;
 }
-.featured-box{
+.featured-box {
   position: relative;
   display: flex;
   height: 100vh;
   min-height: 700px;
 }
-.featured-text{
+.featured-text {
   position: relative;
   display: flex;
   justify-content: center;
@@ -136,44 +136,42 @@ nav {
   padding-left: 20px;
 }
 
-.featured-text-card span{
+.featured-text-card span {
   font-size: 30px;
   font-weight: 600;
   color: black;
-  ;
   margin-block: 20px;
 }
-.featured-name{
+.featured-name {
   font-size: 40px;
   font-weight: 600;
   color: #00c9ff;
   margin-block: 20px;
 }
-.typedText{
+.typedText {
   text-transform: capitalize;
   color: #00c9ff;
 }
 
-.featured-text-info{
+.featured-text-info {
   font-size: 15px;
   margin-bottom: 30px;
   color: black;
   font-weight: 450;
 }
-.featured-text-btn{
+.featured-text-btn {
   display: flex;
   gap: 20px;
-  
   cursor: pointer;
   hover: yellow;
 }
 
-.social_icons{
+.social_icons {
   display: flex;
   margin-top: 3em;
   gap: 20px;
 }
-.icon{
+.icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -184,7 +182,6 @@ nav {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
   border: 2px solid black;
   cursor: pointer;
-  
 }
 .icon {
   color: #00c9ff;
@@ -192,7 +189,7 @@ nav {
   cursor: pointer;
 }
 
-.featured-image{
+.featured-image {
   display: flex;
   justify-content: right;
   align-content: center;
@@ -200,13 +197,13 @@ nav {
   width: 50%;
 }
 
-.image{
- margin: auto 0;
- width: 380px;
+.image {
+  margin: auto 0;
+  width: 380px;
 }
 
-.image img{
+.image img {
   width: 380px;
   height: 380px;
   border-radius: 50%;
-} 
+}
