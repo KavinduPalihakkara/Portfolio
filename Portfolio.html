@@ -1,85 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="shortcut icon" href="images/OIF.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="portfolio.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-</head>
+    <link rel="shortcut icon" href="images/OIF.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <nav id="header">
-            <div class="nav-logo">
-                <!-- logo -->
+      <nav id="header">
+        <div class="nav-logo"></div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav-menu-list">
+            <li class="nav-list">
+              <a href="#home" class="nav-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav-list">
+              <a href="#aboutme" class="nav-link">About Me</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav-list">
+              <a href="#project" class="nav-link">Projects</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav-list">
+              <a href="#contactme" class="nav-link">Contact Me</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <button class="btn">Hire Me</button>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+      <!-- -------------- MAIN ---------------- -->
+      <main class="wrapper">
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span>I'm Kavindu Kashmira Palihakkara</span>
             </div>
-            <div class="nav-menu" id="myNavMenu">
-                <ul class="nav-menu-list">
-                    <li class="nav-list">
-                        <a href="#home" class="nav-link">Home</a>
-                        <div class="circle"></div>
-                    </li>
-                    <li class="nav-list">
-                        <a href="#aboutme" class="nav-link">About Me</a>
-                        <div class="circle"></div>
-                    </li>
-                    <li class="nav-list">
-                        <a href="#project" class="nav-link">Projects</a>
-                        <div class="circle"></div>
-                    </li>
-                    <li class="nav-list">
-                        <a href="#contactme" class="nav-link">Contact Me</a>
-                        <div class="circle"></div>
-                    </li>
-                </ul>
+            <div class="featured-name">
+              <p>
+                <span class="typedText">FullStack WEB/android developer</span>
+              </p>
             </div>
-            <div class="nav-button">
-                <button class="btn">Hire Me</button>
+            <div class="featured-text-info">
+              <p>
+                Dedicated full-stack developer and Android app specialist,
+                committed to crafting responsive solutions and engaging mobile
+                experiences through expert-level coding and innovative design
+                strategies.
+              </p>
             </div>
-            <div class="nav-menu-btn">
-                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            <div class="featured-text-btn">
+              <button class="btn">Download Resume</button>
             </div>
-        </nav>
-
-        <main class="wrapper">
-            <section class="featured-box" id="home">
-               <div class="featured-text">
-                 <div class="featured-text-card">
-                     <span>I'm Kavindu Kashmira Palihakkara</span>
-                 </div>
-                 <div class="featured-name">
-                     <p><span class="typedText">FullStack WEB/android developer</span></p>
-                 </div>
-                 <div class="featured-text-info">
-                     <p>Dedicated full-stack developer and Android app specialist, 
-                        committed to crafting responsive solutions and engaging
-                        mobile experiences through expert-level coding and innovative design strategies.
-                     </p>
-                 </div>
-                 <div class="featured-text-btn">
-                     <button class="btn">Download Resume</i></button>
-                 </div>
-                 <div class="social_icons">
-                     <div class="icon"><i class="uil uil-twitter"></i></div>
-                     <div class="icon"><i class="uil uil-linkedin"></i></div>
-                     <div class="icon"><i class="uil uil-github"></i></div>
-                     <div class="icon"><i class="uil uil-envelope"></i></div>
-                 </div>
-                 <!-- <div class="featured-image">
-                    <div class="image">
-                        <img src="images/profile.jpg.jpg" alt="avatar">
-                    </div>
-                 </div> -->
-                </div>
-            </section>
-        </main>
+            <div class="social_icons">
+              <div class="icon"><i class="uil uil-twitter"></i></div>
+              <div class="icon"><i class="uil uil-linkedin"></i></div>
+              <div class="icon"><i class="uil uil-github"></i></div>
+              <div class="icon"><i class="uil uil-envelope"></i></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img src="images/profile.jpg.jpg" alt="avatar" />
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
     <script src="portfolio.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-</body>
-
+  </body>
 </html>
