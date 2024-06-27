@@ -341,4 +341,40 @@ h3 {
     width: 150px;
     height: 150px;
   }
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+  .col {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  .about-info {
+    width: 100%;
+  }
+  .project-container{
+    justify-content: center;
+  }
+  .project-box {
+    width: 80%;
+  }
 }
+
+@media only screen and (max-width: 540px){
+  .featured-name{
+      font-size: 40px;
+  }
+  .project-box{
+      width: 100%;
+  }
+  .form-inputs{
+      flex-direction: column;
+  }
+  .input-field{
+      width: 100%;
+  }
+}
+
