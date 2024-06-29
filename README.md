@@ -1,6 +1,6 @@
 # Kavindu Kashmira Palihakkara - Portfolio
 
-Welcome to my personal portfolio website. This site showcases my skills and projects as a Mobile App Developer and UI/UX Designer.
+Welcome to my personal portfolio website. This site showcases my skills and projects as a Mobile App Developer and Full Stack Developer.
 
 ## Table of Contents
 
@@ -21,9 +21,9 @@ Hello! I'm Kavindu Kashmira Palihakkara, a passionate Mobile App Developer and U
 ## Contact Information
 
 - **LinkedIn**: [Kavindu Kashmira Palihakkara](https://www.linkedin.com/in/kavindu)
-- **Email**: [kavindu@example.com](mailto:kavindu@example.com)
-- **Phone**: [+123456789](tel:+123456789)
-- **GitHub**: [kavindu](https://github.com/kavindu)
+- **Email**: [kavindukashmira2002@gmail.com](mailto:kavindukashmira2002@gmail.com)
+- **Phone**: [+94702446845](+94702446845)
+- **GitHub**: [kavindu](https://github.com/KavinduPalihakkara)
 
 Feel free to reach out if you have any questions or collaboration ideas!
 
